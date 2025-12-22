@@ -188,3 +188,24 @@ details .content{padding:6px 12px !important}
 /* Kill ghost spacing after tables */
 table{margin-bottom:6px !important}
 .hr{margin:12px 0 !important}
+
+
+/* === OVERRIDES: smaller logos + larger typography (user requested) === */
+body{font-size:19px !important}
+.lead{font-size:21px !important}
+.section h2{font-size:30px !important}
+.card h3, summary{font-size:19px !important}
+.kicker{font-size:16px !important}
+
+/* Logos: reduce ~70% */
+.partner-strip img{height:12px !important; max-width:56px !important}
+.org-logo{height:12px !important; max-width:56px !important}
+.inst-logo{height:12px !important; max-width:56px !important}
+
+/* Tighten logos in pills/cards */
+.pill img{height:12px !important; max-width:56px !important}
+
+/* Reduce vertical gaps between sections on Project Description */
+.accordion{margin:6px 0 !important}
+details{margin:0 !important}
+details .content{padding:8px 14px !important}
