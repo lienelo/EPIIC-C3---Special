@@ -21,3 +21,8 @@ function toggleMenu(){
     io.observe(el);
   });
 })();
+
+
+function toggleAllDetails(open){
+  document.querySelectorAll('details').forEach(d=>{ d.open = !!open; });
+}
