@@ -77,3 +77,9 @@ a{color:inherit}
 .table th{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
 .table tr:last-child td{border-bottom:none}
 .pill{display:inline-flex;align-items:center;padding:5px 10px;border-radius:999px;border:1px solid var(--border);color:var(--muted);font-weight:800;font-size:12px}
+
+
+/* Partner institution logos */
+.card h3{display:flex;align-items:center;gap:10px}
+.org-logo{height:28px;width:auto;max-width:160px;object-fit:contain;flex:0 0 auto}
+@media (max-width:520px){.org-logo{height:24px;max-width:140px}}
