@@ -146,3 +146,45 @@ summary:after{content:"+";margin-left:auto;font-weight:1000;opacity:.85}
 details[open] summary:after{content:"–"}
 details .content{padding:0 16px 16px}
 .section-chip{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:950;color:var(--muted);border:1px solid var(--border);border-radius:999px;padding:6px 10px;background:rgba(255,255,255,.03)}
+
+/* Readability refinements */
+body{font-size:17px}
+.lead{font-size:19px}
+.section h2{font-size:26px}
+.card h3, summary{font-size:17px}
+.table td, .table th{font-size:14px}
+
+/* Logo sizing fixes */
+.inst-logo{height:22px;max-width:90px}
+.partner-strip img{height:18px;max-width:80px}
+.logo{width:32px;height:32px}
+
+/* Project Description spacing fixes */
+.accordion{margin-bottom:12px}
+details .content{padding-top:8px}
+.card{margin-bottom:12px}
+
+/* === FINAL TYPOGRAPHY & SPACING FIXES === */
+
+/* Larger readable fonts */
+body{font-size:18px}
+.lead{font-size:20px}
+.section h2{font-size:28px}
+.card h3, summary{font-size:18px}
+.table td, .table th{font-size:15px}
+
+/* Reduce institution logos by ~70% */
+.inst-logo{height:14px !important; max-width:60px !important}
+.partner-strip img{height:14px !important; max-width:60px !important}
+
+/* Institutions page specific logo tightening */
+.inst-title img{height:14px !important; max-width:60px !important}
+
+/* Remove excess vertical spacing in Project Description */
+.accordion{margin-bottom:6px !important}
+details .content{padding:6px 12px !important}
+.card{margin-bottom:8px !important}
+
+/* Kill ghost spacing after tables */
+table{margin-bottom:6px !important}
+.hr{margin:12px 0 !important}
